@@ -7,7 +7,7 @@ body, html {
   background-image: url("../images/logo.png");
   background-repeat: no-repeat;
   background-position: 230px 43px;
-  
+
 }
 @media screen and (max-width:1200px){.menu{background-position: 130px 43px;}}
 @media screen and (max-width:700px){.menu{background-position: 30px 43px;}}
@@ -15,7 +15,7 @@ body, html {
 /*Menu*/
 nav {
 	float: right;
-	padding:35px 100px 0 0; 
+	padding:35px 100px 0 0;
 }
 
 ul.bar  {
@@ -29,7 +29,7 @@ ul.bar li {
 }
 
 ul.bar li a {
-    color: #777777; 
+    color: #777777;
     font-family: 'Montserrat-Regular';
     font-size: 14px;
     text-decoration: none;
@@ -44,7 +44,7 @@ ul.bar li a:hover {color: #000;}
 	text-align: right;
 	box-sizing: border-box;
 	color: #777777;
-	font-size: 30px; 
+	font-size: 30px;
 	display: none;
 	cursor: pointer;
 }
@@ -58,11 +58,11 @@ ul.bar li a:hover {color: #000;}
 		background: #fff;
 		border-top:solid 1px #777777;
     	border-right: solid 1px #777777;
-   		border-left: solid 1px #777777; 
+   		border-left: solid 1px #777777;
 		display: block;
 		text-align: center;
 		padding: 15px 0 20px 0;
-		
+
 	}
 
 	.active{display: block !important; position: relative; z-index: 10;}
@@ -82,26 +82,26 @@ ul.bar li a:hover {color: #000;}
 	align-items: center;
 }
 .homenapis1{
-	
+
 	font-family: 'Montserrat-Bold';
 	font-size: 60px;
 	color: #fff;
 	text-align: center;
-	
+
 }
 .homenapis2{
-	
+
 	font-family: 'RobotoSlab-Bold';
 	font-size: 20px;
 	color: #fff;
 	text-align: center;
-	padding-top:36px; 
+	padding-top:36px;
 }
 .btn1{
-	
+
 	display: block;
 	background-color: #7cc576;
-	border: none; 
+	border: none;
 	height: 60px;
 	width: 200px;
 	border-radius: 50px;
@@ -109,8 +109,8 @@ ul.bar li a:hover {color: #000;}
 	font-size: 16px;
 	color: #fff;
 	text-shadow: 2px 2px 4px #000000;
-	margin: 0 auto; 
-	margin-top: 60px; 
+	margin: 0 auto;
+	margin-top: 60px;
 	cursor: pointer;
 }
 .btn1:hover{
@@ -118,7 +118,7 @@ ul.bar li a:hover {color: #000;}
 	color: #222222;
 	text-shadow: none;
 }
-@media (max-width: 650px){
+@media screen and (max-width: 650px), screen and (max-height: 650px){
 	.homenapis1{font-size: 30px;}
 	.homenapis2{
 		font-size: 10px;
@@ -135,7 +135,7 @@ ul.bar li a:hover {color: #000;}
 /*about page 2*/
 .about{
 	background-color: #fff;
-	height: 100%;	
+	height: 100%;
 }
 .wrapcont{
     position: relative;
@@ -147,7 +147,7 @@ ul.bar li a:hover {color: #000;}
 	text-align: center;
 	font-family: 'Montserrat-Bold';
 	font-size: 40px;
-	color: #222222; 
+	color: #222222;
 }
 #heart, #phone, #line{
 	font-size: 18px;
@@ -158,7 +158,7 @@ ul.bar li a:hover {color: #000;}
 	font-family: 'RobotoSlab-Regular';
 	font-size: 20px;
 	color: #777777;
-	padding: 20px 0 86px 0; 
+	padding: 20px 0 86px 0;
 }
 #desc{ font-size: 14px; padding: 20px 0 0 0;}
 
@@ -174,13 +174,13 @@ ul.bar li a:hover {color: #000;}
 	width: 53px;
 	height:47px;
 	margin: 0 auto;
-	margin-bottom: 40px; 
+	margin-bottom: 40px;
 }
 #img2{background-image: url("../images/phone.png");}
 #img3{background-image: url("../images/line.png");}
 
 @media(max-width: 1000px){
-	.wrapcol{columns: 1;} 
+	.wrapcol{columns: 1;}
 	.box1{padding-top: 20px;}
 }
 @media (max-width: 1000px){
@@ -194,7 +194,7 @@ ul.bar li a:hover {color: #000;}
 		margin-bottom: 20px;
 	}
 }
-@media (max-width: 600px){
+@media screen and (max-width: 600px), screen and (max-height:600px){
 	.aboutnapis1{font-size: 20px;}
 	.aboutnapis2{font-size: 10px; padding: 5px 0 15px 0;}
 	#heart, #phone, #line{font-size: 10px;}
@@ -213,7 +213,7 @@ ul.bar li a:hover {color: #000;}
 
 }
 .gear{
-	background-repeat: no-repeat; 
+	background-repeat: no-repeat;
 	background-color: #e9e9e9;
 	background-image: url("../images/halfgear.png");
 	background-position: right;
@@ -223,7 +223,7 @@ ul.bar li a:hover {color: #000;}
 	.gear{display: none;}
 	.blogphoto{
 		padding-left: 50px !important;
-	} 
+	}
 }
 
 .blogphoto{
@@ -232,7 +232,7 @@ ul.bar li a:hover {color: #000;}
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100%;
-	width: auto;	
+	width: auto;
 	flex: 75%;
 	padding-left: 100px;
 }
@@ -262,21 +262,21 @@ ul.bar li a:hover {color: #000;}
 	background-image: url("../images/listicon.png");
 	background-repeat: no-repeat;
 	background-size: cover;
-	width: 32px; 
+	width: 32px;
 	height: 32px;
 }
 .listtext{
 	font-family: 'RobotoSlab-Regular';
 	font-size: 16px;
 	color: #fff;
-	padding-left: 20px; 
+	padding-left: 20px;
 }
 
 
 .btn2{
 	display: block;
 	background-color: #7cc576;
-	border: none; 
+	border: none;
 	height: 60px;
 	width: 170px;
 	border-radius: 50px;
@@ -292,7 +292,7 @@ ul.bar li a:hover {color: #000;}
 	text-shadow: none;
 }
 
-@media(max-width: 730px){
+@media screen and (max-width: 730px), screen and (max-height:600px){
 	.blogtitle{
 		font-size: 30px;
 		padding-bottom: 35px;
@@ -302,9 +302,9 @@ ul.bar li a:hover {color: #000;}
 		height: 50px;
 		width: 150px;
 		font-size: 13px;
-	} 
+	}
 }
-@media(max-width: 600px){
+@media screen and (max-width: 600px), screen and (max-height:450px){
 	.blogtitle{
 		font-size: 25px;
 		padding-bottom: 15px;
@@ -317,7 +317,7 @@ ul.bar li a:hover {color: #000;}
 	}
 	.blogphoto{
 		padding-left: 20px !important;
-	}  
+	}
 }
 
 
@@ -344,7 +344,7 @@ ul.bar li a:hover {color: #000;}
 	text-align: center;
 }
 .leftspace{
-	padding-left: 230px; 
+	padding-left: 230px;
 }
 
 .imgwrapper{
@@ -361,9 +361,9 @@ ul.bar li a:hover {color: #000;}
 	background-image: url("../images/basket.png");
 	background-repeat: no-repeat;
 	background-size: contain;
-	width:74px; 
+	width:74px;
 	height:72px;
-	margin:0;  
+	margin:0;
 }
 #rimg2{
 	background-image: url("../images/computer.png");
@@ -392,25 +392,25 @@ a.firstlink{
 	font-size: 16px;
 	color: #7cc576;
 }
-@media (max-width: 800px),(max-height: 900px){
+@media screen and (max-width: 800px), screen and (max-height: 900px){
 	.portfolio{background-size: 50%;}
 	.leftspace{padding-left: 100px;}
 	.porttittle{font-size: 30px; padding-top: 50px;}
 	.portdesc{font-size: 15px; padding-bottom: 50px;}
 	.roundimg{
-		width:54px; 
+		width:54px;
 		height:52px;}
 	.porttitle1{font-size: 14px;}
 	.portdesc2{font-size: 13px;}
 	a.firstlink{font-size: 13px;}
 }
-@media (max-width: 600px){
+@media screen and (max-width: 600px), screen and (max-height:600px){
 	.leftspace{padding-left: 40px;}
 	.porttittle{font-size: 20px; padding-top: 10px;}
 	.portdesc{font-size: 10px; padding-bottom: 10px;}
 	#desc2{padding: 15px 0 20px 0;}
 	.roundimg{
-		width:44px; 
+		width:44px;
 		height:42px;}
 	.porttitle1{font-size: 10px;}
 	.portdesc2{font-size: 10px;}
@@ -419,7 +419,7 @@ a.firstlink{
 
 /*values page 5*/
 
-.values{	
+.values{
 	background-color: #fff;
 	height: 100%;
 }
@@ -445,7 +445,7 @@ a.firstlink{
 .lineimg1{
 	background-image: url("../images/note.png");
 	background-repeat: no-repeat;
-	width: 92px; 
+	width: 92px;
 	height: 92px;
 	background-size: cover;
 	margin: 0 35px 0 35px;
@@ -455,7 +455,7 @@ a.firstlink{
 .lineimg2{
 	background-image: url("../images/lan.png");
 	background-repeat: no-repeat;
-	width: 92px; 
+	width: 92px;
 	height: 92px;
 	background-size: cover;
 	margin: 0 35px 0 35px;
@@ -463,16 +463,16 @@ a.firstlink{
 .lineimg3{
 	background-image: url("../images/star.png");
 	background-repeat: no-repeat;
-	width: 92px; 
+	width: 92px;
 	height: 92px;
 	background-size: cover;
 	margin: 0 35px 0 35px;
 }
 #show{
-	display: none; 
-	margin: 0 auto; 
+	display: none;
+	margin: 0 auto;
 	margin-bottom: 10px;
-	margin-top: 10px; 
+	margin-top: 10px;
 }
 
 
@@ -480,7 +480,7 @@ a.firstlink{
 	display:inline-block;
 	background-image: url("../images/lineline.png");
 	background-repeat: no-repeat;
-	width: 170px; 
+	width: 170px;
 	height: 2px;
 	background-size: cover;
 }
@@ -503,7 +503,7 @@ a.firstlink{
 @media screen and (max-width: 970px){
 	.line{width: 140px;}
 	.lineimg1,.lineimg2,.lineimg3{
-		width: 62px; 
+		width: 62px;
 		height: 62px;
 	}
 	.valtitle1{font-size: 16px;}
@@ -519,7 +519,7 @@ a.firstlink{
 	#tohide{display: none;}
 	.lineimg,.lineimg2,.lineimg3{display: block; text-align: center;}
 	.valtittle{font-size: 25px;}
-	.valdesc, .valtitle1, .valdesc1{font-size: 80%;}	
+	.valdesc, .valtitle1, .valdesc1{font-size: 80%;}
 	#show{display: block;}
 	.valdesc{padding-bottom: 25px}
 }
@@ -570,14 +570,14 @@ a.firstlink{
 .clienttext{
 	font-family: 'RobotoSlab-Regular';
 	font-size: 22px;
-	color: #777777; 
+	color: #777777;
 }
 .clientname{
 	font-family: 'RobotoSlab-Regular';
 	font-size: 18px;
 	color: #7cc576;
 }
-@media (max-width: 1200px), (max-height: 900px) {
+@media screen and (max-width: 1200px), screen and (max-height: 900px) {
 	.clientface{
 	height: 200px;
 	width: 200px;
@@ -603,7 +603,7 @@ a.firstlink{
 	.clienttext{font-size: 10px;}
 	.clientname{font-size: 9px;}
 }
-@media (max-width: 550px){
+@media (max-width: 550px), (max-height: 550px){
 	.clientface{
 	height: 80px;
 	width: 80px;
@@ -616,7 +616,7 @@ a.firstlink{
 	.clienttext{font-size: 8px;}
 	.clientname{font-size: 7px;}
 	.clientstittle{font-size: 30px;}
-	.clientsdesc{font-size: 15px;}
+	.clientsdesc{font-size: 15px; padding-bottom: 25px;}
 }
 
 /*contact page 7*/
@@ -636,11 +636,11 @@ a.firstlink{
 	color: #fff;
 	font-size: 40px;
 	text-align: center;
-	padding-bottom: 30px;  
+	padding-bottom: 30px;
 }
 .cbtn{
 	background-color: #7cc576;
-	border: solid 3px #fff; 
+	border: solid 3px #fff;
 	height: 50px;
 	width: 180px;
 	border-radius: 5px;
@@ -672,23 +672,23 @@ a.firstlink{
 	background-image: url("../images/envato.png");
 	background-repeat: no-repeat;
 	background-size: contain;
-	height:30px; 
+	height:30px;
 	width:150px;
 	margin: 0 25px 0 25px;
 }
 #press{
 	background-image: url("../images/press.png");
-	height:40px; 
+	height:40px;
 	width:190px;
 }
 #tuts{
 	background-image: url("../images/tuts.png");
-	height:41px; 
+	height:41px;
 	width:131px;
 }
 #micro{
 	background-image: url("../images/micro.png");
-	height:42px; 
+	height:42px;
 	width:167px;
 }
 
@@ -710,7 +710,7 @@ a.firstlink{
 	font-family:'Montserrat-Bold';
 	font-size: 18px;
 	color: #fff;
-	padding-bottom: 20px; 
+	padding-bottom: 20px;
 }
 .iconimg{
 	background-image: url("../images/location.png");
@@ -777,7 +777,7 @@ a.firstlink{
 @media (max-width: 850px){
 	.listbox{padding: 0 10px 0 10px;}
 	.iconimg{background-size: 80%;}
-	}	
+	}
 @media (max-width: 750px),(max-height: 750px){
 	.conttitle{padding-bottom: 10px}
 	.iconwrapper{padding-bottom: 5px;}
@@ -785,6 +785,7 @@ a.firstlink{
 	.info{font-size: 12px;}
 	.listbox{padding: 0 5px 0 5px;}
 	.iconimg{background-size: 70%;}
+  .contlist{padding-top: 20px;}
 }
 @media (max-width: 550px),(max-height: 550px){
 	.conttitle{font-size: 10px;}
@@ -800,7 +801,7 @@ a.firstlink{
 	font-family: 'Montserrat-Regular';
 	font-size: 14px;
 	color: #555555;
-	padding-right: 120px; 
+	padding-right: 120px;
 }
 .footer{
 	display: flex;
