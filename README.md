@@ -1,6 +1,6 @@
 # Treehouse - PSD
 
-Project for learning purposes, second project
+Project for learning purposes
 
 Live version: https://krzszk96.github.io/
 
